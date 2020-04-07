@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <title>Rock - Paper - Scissors</title>
+    <meta charset='utf-8'>
+    <link href=data:, rel=icon>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+
+    <script src='script.js' defer></script>
+
+
+
+</head>
+
+<body>
+
+    <div id="app">
+      <h1>Rock - Paper - Scissors</h1>
+        <div>
+          <button @click="choices('rock')">
+        <img src="https://img.icons8.com/officel/100/000000/rock.png"/>
+          </button>
+          <button @click="choices('paper')">
+          <img src="https://img.icons8.com/dusk/100/000000/document.png"/>
+          </button>
+          <button @click="choices('scissors')">
+            <img src="https://img.icons8.com/plasticine/100/000000/cut.png"/>
+          </button>
+        </div>
+          
+    <div>
+    <h3>Human: {{hScore}} Computer: {{cScore}}</h3>
+  </div>
+  </body>
+
+</html>
